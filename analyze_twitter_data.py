@@ -1,6 +1,6 @@
 #!/bin/usr/env python 3
 '''
-This module is the beginning of analytics in the cloud for johnpharmd
+This module is the beginning of Twitter analytics in the cloud for johnpharmd
 '''
 from env_vars import check_password
 
