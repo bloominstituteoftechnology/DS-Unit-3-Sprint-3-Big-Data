@@ -11,12 +11,14 @@ class LogisticRegression:
         self.X = dat
         self.y = target
     
-    #@jit
+    @jit
     def center(self):
         ''' optional; centers the data at zero, both mutating and returning ''' 
         n = self.X.shape[1]
-        means = np.array([[x.mean() for x in X.T] for _ in X])
-        self.X = self.X - means
+        #means = np.array([[x.mean() for x in X.T] for _ in X])
+        means = np.array([x.mean() for x in self.X.T])
+        ones = np.ones([self.X.shape[0], 1])
+        self.X = self.X - np.matmul(ones, means)
         return self.X
 
     @jit
