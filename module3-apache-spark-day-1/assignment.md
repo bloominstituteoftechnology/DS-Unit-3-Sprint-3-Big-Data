@@ -26,7 +26,7 @@ We’ll use **Databricks Community Edition** today, because it’s:
 
 ### 5. Estimate Pi
 
-Run the Pi Estimation example (in Scala) from the [Apache Spark Examples](https://spark.apache.org/examples.html). 
+In your notebook, run the Pi Estimation example (in Scala) from the [Apache Spark Examples](https://spark.apache.org/examples.html). 
 
 (First you'll need to assign an integer value to the `NUM_SAMPLES` constant.)
 
