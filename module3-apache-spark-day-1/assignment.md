@@ -26,11 +26,7 @@ From the **Welcome to databricks** page, click on **Explore the Quickstart tutor
 
 This will open a notebook. Follow the instructions to Create a quickstart cluster, Attach the notebook to the cluster and run all commands in the notebook.
 
-(You don't have to type the commands yourself from scratch. The purpose here is just to see a preview of what you can do with Spark and Databricks, and verify it's working for you.)
-
-If you want more information about this Quickstart tutorial, see [Databricks documentation](https://docs.databricks.com/getting-started/quick-start.html).
-
-Attach the notebook to the cluster and run all commands in the notebook
+(You don't have to type the commands yourself from scratch. The purpose here is just to see a preview of what you can do with Spark and Databricks, and verify it's working for you. Note that [Databricks documentation](https://docs.databricks.com/getting-started/quick-start.html) has more information about this tutorial.)
 
 ### 4. [Create a notebook](https://docs.databricks.com/user-guide/notebooks/notebook-manage.html#create-a-notebook) (Scala)
 
