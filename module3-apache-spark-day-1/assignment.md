@@ -4,7 +4,7 @@ _Lambda School Data Science - Big Data_
 
 ### 1. Sign up for Databricks Community Edition
 
-Today we’ll continue our tour of different cloud notebooks!
+Today we’ll continue our tour of different cloud notebook platforms!
 
 We’ll use **Databricks Community Edition** today, because it’s:
 
