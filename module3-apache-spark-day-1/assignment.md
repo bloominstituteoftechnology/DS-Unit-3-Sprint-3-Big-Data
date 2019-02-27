@@ -22,7 +22,7 @@ We’ll use **Databricks Community Edition** today, because it’s:
 
 ### 3. [Do the Quickstart tutorial](https://docs.databricks.com/getting-started/quick-start.html)
 
-### 4. [Create a notebook](https://docs.databricks.com/user-guide/notebooks/notebook-manage.html#create-a-notebook)
+### 4. [Create a notebook](https://docs.databricks.com/user-guide/notebooks/notebook-manage.html#create-a-notebook) (Scala)
 
 ### 5. Estimate Pi
 
