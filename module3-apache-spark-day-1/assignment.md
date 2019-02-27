@@ -20,7 +20,17 @@ We’ll use **Databricks Community Edition** today, because it’s:
 
 ### 2. [Sign in to Databricks Community Edition](https://community.cloud.databricks.com/login.html)
 
-### 3. [Do the Quickstart tutorial](https://docs.databricks.com/getting-started/quick-start.html)
+### 3. [Explore the Quickstart tutorial]
+
+From the **Welcome to databricks** page, click on **Explore the Quickstart tutorial.**
+
+This will open a notebook. Follow the instructions to Create a quickstart cluster, Attach the notebook to the cluster and run all commands in the notebook.
+
+(You don't have to type the commands yourself from scratch.)
+
+If you want more information about this Quickstart tutorial, see [Databricks documentation](https://docs.databricks.com/getting-started/quick-start.html).
+
+Attach the notebook to the cluster and run all commands in the notebook
 
 ### 4. [Create a notebook](https://docs.databricks.com/user-guide/notebooks/notebook-manage.html#create-a-notebook) (Scala)
 
