@@ -49,7 +49,7 @@ Then, in your notebook, do the [code exercises from _Spark: The Definitive Guide
 **Important!** Note these instructions from the [repo README](https://github.com/databricks/Spark-The-Definitive-Guide/blob/master/README.md):
 > Rather than you having to upload all of the data yourself, you simply have to **change the path in each chapter from `/data` to `/databricks-datasets/definitive-guide/data`**. Once you've done that, all examples should run without issue. 
 
-Next, read [_Spark: The Definitive Guide_ excerpts](https://pages.databricks.com/rs/094-YMS-629/images/Apache-Spark-The-Definitive-Guide-Excerpts-R1.pdf), **Pages 22-31.**
+Next, read [_Spark: The Definitive Guide_ excerpts](https://pages.databricks.com/rs/094-YMS-629/images/Apache-Spark-The-Definitive-Guide-Excerpts-R1.pdf), **Pages 26-31.**
 
 Then, in your notebook, do the [code exercises from _Spark: The Definitive Guide_, **Chapter 3: A Tour of Spark’s Toolset**](https://github.com/databricks/Spark-The-Definitive-Guide/blob/master/code/A_Gentle_Introduction_to_Spark-Chapter_3_A_Tour_of_Sparks_Toolset.scala), **only lines 28-105.** (You don't need to do the Datasets exercise at the beginning, or the Machine Learning exercise at the end.)
 
