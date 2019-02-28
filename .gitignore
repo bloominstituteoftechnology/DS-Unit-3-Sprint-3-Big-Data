@@ -1,6 +1,5 @@
-instacart*/*
-instacart*
-.gitignore
+instacart_data/*
+instacart_data
 .*
 *.tar
 *.gz
