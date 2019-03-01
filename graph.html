@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<!-- saved from url=(0463)https://mermaidjs.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcbkFbRGF0YSBTaXplIF0gLS0-fE5lZWQgTW9yZSBjb3JlIHBvd2VyIHRvIHJ1biBkYXRhfCBCKEFXUy9EYXRhQnJpY2tzKVxuQiAtLT4gQ3ttYWtlIGEgRGVjaXNpb259XG5DIC0tPnxPbmV8IERbRGFzay9OdW1iYSBpZiBvbmUgYmlnIG1hY2hpbmUgY2FuIGhhbmRsZV1cbkMgLS0-fFR3b3wgRVtEYXRhQnJpY2tzIHNpbWlsYXIgdG8gRU1SIGNsdXN0ZXJzXVxuQyAtLT58VGhyZWV8IEZbRU1SIGlmIG5lZWQgbW9yZSBtYWNoaW5lcyBjbHVzdGVyc11cbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19 -->
+<html class=""><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   <title>Online FlowChart &amp; Diagrams Editor - Mermaid Live Editor</title> <meta name="og:image" content="https://mermaidjs.github.io/images/header.png"> <link rel="canonical" href="https://mermaidjs.github.io/mermaid-live-editor/"> <meta name="description" content="Simplify documentation and avoid heavy tools. Open source Visio Alternative. Commonly used for explaining your code! Mermaid is a simple markdown-like script language for generating charts from text via javascript."> <link rel="stylesheet" href="./graph_files/src.62716eb1.css"><style type="text/css">.fancybox-margin{margin-right:0px;}</style></head> <body> <div id="root"><div><h1>Mermaid Live Editor</h1><div class="ant-divider ant-divider-horizontal"></div><div class="ant-row" style="margin-left: -8px; margin-right: -8px;"><div class="ant-col-8" style="padding-left: 8px; padding-right: 8px;"><div><div class=""><div class="ant-card ant-card-bordered"><div class="ant-card-head"><div class="ant-card-head-wrapper"><div class="ant-card-head-title">Code</div></div></div><div class="ant-card-body"><textarea class="ant-input" style="height: 262px; min-height: 94px; max-height: 346px; overflow-y: hidden;">graph TD
+A[Data Size ] --&gt;|Need More core power to run data| B(AWS/DataBricks)
+B --&gt; C{make a Decision}
+C --&gt;|One| D[Dask/Numba if one big machine can handle]
+C --&gt;|Two| E[DataBricks similar to EMR clusters]
+C --&gt;|Three| F[EMR if need more machines clusters]
+</textarea></div></div></div></div><div class="ant-card ant-card-bordered"><div class="ant-card-head"><div class="ant-card-head-wrapper"><div class="ant-card-head-title">Mermaid configuration</div></div></div><div class="ant-card-body"><textarea class="ant-input" style="height: 94px; min-height: 94px; max-height: 346px; overflow-y: hidden;">{
+  "theme": "default"
+}</textarea></div></div><div class="ant-card ant-card-bordered"><div class="ant-card-head"><div class="ant-card-head-wrapper"><div class="ant-card-head-title">Links</div></div></div><div class="ant-card-body"><ul class="marketing-links"><li><a href="https://mermaidjs.github.io/" target="_blank"><i class="anticon anticon-book"><svg viewBox="64 64 896 896" class="" data-icon="book" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M832 64H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V96c0-17.7-14.3-32-32-32zm-260 72h96v209.9L621.5 312 572 347.4V136zm220 752H232V136h280v296.9c0 3.3 1 6.6 3 9.3a15.9 15.9 0 0 0 22.3 3.7l83.8-59.9 81.4 59.4c2.7 2 6 3.1 9.4 3.1 8.8 0 16-7.2 16-16V136h64v752z"></path></svg></i> Mermaid Documentation</a></li><li><a href="https://github.com/knsv/mermaid" target="_blank"><i class="anticon anticon-github"><svg viewBox="64 64 896 896" class="" data-icon="github" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg></i> Mermaid on GitHub</a></li><li><a href="https://github.com/mermaidjs/mermaid-gitbook" target="_blank"><i class="anticon anticon-github"><svg viewBox="64 64 896 896" class="" data-icon="github" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg></i> Documentation on GitHub</a></li><li><a href="https://github.com/mermaidjs/mermaid-live-editor" target="_blank"><i class="anticon anticon-github"><svg viewBox="64 64 896 896" class="" data-icon="github" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg></i> Live Editor on GitHub</a></li><li><a href="https://github.com/mermaidjs/mermaid.cli" target="_blank"><i class="anticon anticon-github"><svg viewBox="64 64 896 896" class="" data-icon="github" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg></i> Mermaid CLI</a></li></ul></div></div></div><div class="ant-col-16" style="padding-left: 8px; padding-right: 8px;"><div><div class="ant-card ant-card-bordered"><div class="ant-card-head"><div class="ant-card-head-wrapper"><div class="ant-card-head-title">Preview</div></div></div><div class="ant-card-body"><div data-processed="true"><svg id="mermaid-1551466683359" width="100%" xmlns="http://www.w3.org/2000/svg" style="max-width: 890.296875px;" viewBox="0 0 890.296875 479.0500030517578"><style>
+
+
+#mermaid-1551466683359 .label {
+  font-family: 'trebuchet ms', verdana, arial;
+  color: #333; }
+
+#mermaid-1551466683359 .node rect,
+#mermaid-1551466683359 .node circle,
+#mermaid-1551466683359 .node ellipse,
+#mermaid-1551466683359 .node polygon {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+#mermaid-1551466683359 .node.clickable {
+  cursor: pointer; }
+
+#mermaid-1551466683359 .arrowheadPath {
+  fill: #333333; }
+
+#mermaid-1551466683359 .edgePath .path {
+  stroke: #333333;
+  stroke-width: 1.5px; }
+
+#mermaid-1551466683359 .edgeLabel {
+  background-color: #e8e8e8; }
+
+#mermaid-1551466683359 .cluster rect {
+  fill: #ffffde !important;
+  stroke: #aaaa33 !important;
+  stroke-width: 1px !important; }
+
+#mermaid-1551466683359 .cluster text {
+  fill: #333; }
+
+#mermaid-1551466683359 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 12px;
+  background: #ffffde;
+  border: 1px solid #aaaa33;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+#mermaid-1551466683359 .actor {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1551466683359 text.actor {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1551466683359 .actor-line {
+  stroke: grey; }
+
+#mermaid-1551466683359 .messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1551466683359 .messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: #333; }
+
+#mermaid-1551466683359 #arrowhead {
+  fill: #333; }
+
+#mermaid-1551466683359 #crosshead path {
+  fill: #333 !important;
+  stroke: #333 !important; }
+
+#mermaid-1551466683359 .messageText {
+  fill: #333;
+  stroke: none; }
+
+#mermaid-1551466683359 .labelBox {
+  stroke: #CCCCFF;
+  fill: #ECECFF; }
+
+#mermaid-1551466683359 .labelText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1551466683359 .loopText {
+  fill: black;
+  stroke: none; }
+
+#mermaid-1551466683359 .loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #CCCCFF; }
+
+#mermaid-1551466683359 .note {
+  stroke: #aaaa33;
+  fill: #fff5ad; }
+
+#mermaid-1551466683359 .noteText {
+  fill: black;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 14px; }
+
+#mermaid-1551466683359 .activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1551466683359 .activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+#mermaid-1551466683359 .activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+
+#mermaid-1551466683359 .section {
+  stroke: none;
+  opacity: 0.2; }
+
+#mermaid-1551466683359 .section0 {
+  fill: rgba(102, 102, 255, 0.49); }
+
+#mermaid-1551466683359 .section2 {
+  fill: #fff400; }
+
+#mermaid-1551466683359 .section1,
+#mermaid-1551466683359 .section3 {
+  fill: white;
+  opacity: 0.2; }
+
+#mermaid-1551466683359 .sectionTitle0 {
+  fill: #333; }
+
+#mermaid-1551466683359 .sectionTitle1 {
+  fill: #333; }
+
+#mermaid-1551466683359 .sectionTitle2 {
+  fill: #333; }
+
+#mermaid-1551466683359 .sectionTitle3 {
+  fill: #333; }
+
+#mermaid-1551466683359 .sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px; }
+
+
+#mermaid-1551466683359 .grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+#mermaid-1551466683359 .grid path {
+  stroke-width: 0; }
+
+
+#mermaid-1551466683359 .today {
+  fill: none;
+  stroke: red;
+  stroke-width: 2px; }
+
+
+
+#mermaid-1551466683359 .task {
+  stroke-width: 2; }
+
+#mermaid-1551466683359 .taskText {
+  text-anchor: middle;
+  font-size: 11px; }
+
+#mermaid-1551466683359 .taskTextOutsideRight {
+  fill: black;
+  text-anchor: start;
+  font-size: 11px; }
+
+#mermaid-1551466683359 .taskTextOutsideLeft {
+  fill: black;
+  text-anchor: end;
+  font-size: 11px; }
+
+
+#mermaid-1551466683359 .taskText0,
+#mermaid-1551466683359 .taskText1,
+#mermaid-1551466683359 .taskText2,
+#mermaid-1551466683359 .taskText3 {
+  fill: white; }
+
+#mermaid-1551466683359 .task0,
+#mermaid-1551466683359 .task1,
+#mermaid-1551466683359 .task2,
+#mermaid-1551466683359 .task3 {
+  fill: #8a90dd;
+  stroke: #534fbc; }
+
+#mermaid-1551466683359 .taskTextOutside0,
+#mermaid-1551466683359 .taskTextOutside2 {
+  fill: black; }
+
+#mermaid-1551466683359 .taskTextOutside1,
+#mermaid-1551466683359 .taskTextOutside3 {
+  fill: black; }
+
+
+#mermaid-1551466683359 .active0,
+#mermaid-1551466683359 .active1,
+#mermaid-1551466683359 .active2,
+#mermaid-1551466683359 .active3 {
+  fill: #bfc7ff;
+  stroke: #534fbc; }
+
+#mermaid-1551466683359 .activeText0,
+#mermaid-1551466683359 .activeText1,
+#mermaid-1551466683359 .activeText2,
+#mermaid-1551466683359 .activeText3 {
+  fill: black !important; }
+
+
+#mermaid-1551466683359 .done0,
+#mermaid-1551466683359 .done1,
+#mermaid-1551466683359 .done2,
+#mermaid-1551466683359 .done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+#mermaid-1551466683359 .doneText0,
+#mermaid-1551466683359 .doneText1,
+#mermaid-1551466683359 .doneText2,
+#mermaid-1551466683359 .doneText3 {
+  fill: black !important; }
+
+
+#mermaid-1551466683359 .crit0,
+#mermaid-1551466683359 .crit1,
+#mermaid-1551466683359 .crit2,
+#mermaid-1551466683359 .crit3 {
+  stroke: #ff8888;
+  fill: red;
+  stroke-width: 2; }
+
+#mermaid-1551466683359 .activeCrit0,
+#mermaid-1551466683359 .activeCrit1,
+#mermaid-1551466683359 .activeCrit2,
+#mermaid-1551466683359 .activeCrit3 {
+  stroke: #ff8888;
+  fill: #bfc7ff;
+  stroke-width: 2; }
+
+#mermaid-1551466683359 .doneCrit0,
+#mermaid-1551466683359 .doneCrit1,
+#mermaid-1551466683359 .doneCrit2,
+#mermaid-1551466683359 .doneCrit3 {
+  stroke: #ff8888;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+#mermaid-1551466683359 .doneCritText0,
+#mermaid-1551466683359 .doneCritText1,
+#mermaid-1551466683359 .doneCritText2,
+#mermaid-1551466683359 .doneCritText3 {
+  fill: black !important; }
+
+#mermaid-1551466683359 .activeCritText0,
+#mermaid-1551466683359 .activeCritText1,
+#mermaid-1551466683359 .activeCritText2,
+#mermaid-1551466683359 .activeCritText3 {
+  fill: black !important; }
+
+#mermaid-1551466683359 .titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: black; }
+
+#mermaid-1551466683359 g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 10px; }
+
+#mermaid-1551466683359 g.classGroup rect {
+  fill: #ECECFF;
+  stroke: #9370DB; }
+
+#mermaid-1551466683359 g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1551466683359 .classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #ECECFF;
+  opacity: 0.5; }
+
+#mermaid-1551466683359 .classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+#mermaid-1551466683359 .relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#mermaid-1551466683359 #compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1551466683359 #compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1551466683359 #aggregationStart {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1551466683359 #aggregationEnd {
+  fill: #ECECFF;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1551466683359 #dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1551466683359 #dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1551466683359 #extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1551466683359 #extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#mermaid-1551466683359 .commit-id,
+#mermaid-1551466683359 .commit-msg,
+#mermaid-1551466683359 .branch-label {
+  fill: lightgrey;
+  color: lightgrey; }
+</style><style>#mermaid-1551466683359 {
+    color: rgba(0, 0, 0, 0.65);
+    font: ;
+  }</style><g transform="translate(-12, -12)"><g class="output"><g class="clusters"></g><g class="edgePaths"><g class="edgePath" style="opacity: 1;"><path class="path" d="M478.1796875,61L478.1796875,96.5L478.1796875,132" marker-end="url(#arrowhead10229)" style="fill:none"></path><defs><marker id="arrowhead10229" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M478.1796875,173L478.1796875,198L478.6796875,223.50000152587893" marker-end="url(#arrowhead10230)" style="fill:none"></path><defs><marker id="arrowhead10230" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M423.85375972344264,316.72407374932146L165.4140625,406.5500030517578L165.4140625,442.0500030517578" marker-end="url(#arrowhead10231)" style="fill:none"></path><defs><marker id="arrowhead10231" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M478.67968750000006,371.5499984741212L478.1796875,406.5500030517578L478.1796875,442.0500030517578" marker-end="url(#arrowhead10232)" style="fill:none"></path><defs><marker id="arrowhead10232" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g><g class="edgePath" style="opacity: 1;"><path class="path" d="M532.499330061498,317.73035591262317L769.9140625,406.5500030517578L769.9140625,442.0500030517578" marker-end="url(#arrowhead10233)" style="fill:none"></path><defs><marker id="arrowhead10233" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" class="arrowheadPath" style="stroke-width: 1; stroke-dasharray: 1, 0;"></path></marker></defs></g></g><g class="edgeLabels"><g class="edgeLabel" transform="translate(478.1796875,96.5)" style="opacity: 1;"><g transform="translate(-106.6171875,-10.5)" class="label"><foreignobject width="213.234375" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Need More core power to run data</span></div></foreignobject></g></g><g class="edgeLabel" transform="" style="opacity: 1;"><g transform="translate(0,0)" class="label"><foreignobject width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel"></span></div></foreignobject></g></g><g class="edgeLabel" transform="translate(165.4140625,406.5500030517578)" style="opacity: 1;"><g transform="translate(-13.234375,-10.5)" class="label"><foreignobject width="26.46875" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">One</span></div></foreignobject></g></g><g class="edgeLabel" transform="translate(478.1796875,406.5500030517578)" style="opacity: 1;"><g transform="translate(-12.84375,-10.5)" class="label"><foreignobject width="25.6875" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Two</span></div></foreignobject></g></g><g class="edgeLabel" transform="translate(769.9140625,406.5500030517578)" style="opacity: 1;"><g transform="translate(-18.2890625,-10.5)" class="label"><foreignobject width="36.578125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;"><span class="edgeLabel">Three</span></div></foreignobject></g></g></g><g class="nodes"><g class="node" id="A" transform="translate(478.1796875,40.5)" style="opacity: 1;"><rect rx="0" ry="0" x="-40.3515625" y="-20.5" width="80.703125" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-30.3515625,-10.5)"><foreignobject width="60.703125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Data Size</div></foreignobject></g></g></g><g class="node" id="B" transform="translate(478.1796875,152.5)" style="opacity: 1;"><rect rx="5" ry="5" x="-61.4765625" y="-20.5" width="122.953125" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-51.4765625,-10.5)"><foreignobject width="102.953125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">AWS/DataBricks</div></foreignobject></g></g></g><g class="node" id="C" transform="translate(478.1796875,297.0250015258789)" style="opacity: 1;"><polygon points="74.025,0 148.05,-74.025 74.025,-148.05 0,-74.025" rx="5" ry="5" transform="translate(-74.025,74.025)"></polygon><g class="label" transform="translate(0,0)"><g transform="translate(-51.75,-10.5)"><foreignobject width="103.5" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">make a Decision</div></foreignobject></g></g></g><g class="node" id="D" transform="translate(165.4140625,462.5500030517578)" style="opacity: 1;"><rect rx="0" ry="0" x="-145.4140625" y="-20.5" width="290.828125" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-135.4140625,-10.5)"><foreignobject width="270.828125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">Dask/Numba if one big machine can handle</div></foreignobject></g></g></g><g class="node" id="E" transform="translate(478.1796875,462.5500030517578)" style="opacity: 1;"><rect rx="0" ry="0" x="-117.3515625" y="-20.5" width="234.703125" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-107.3515625,-10.5)"><foreignobject width="214.703125" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">DataBricks similar to EMR clusters</div></foreignobject></g></g></g><g class="node" id="F" transform="translate(769.9140625,462.5500030517578)" style="opacity: 1;"><rect rx="0" ry="0" x="-124.3828125" y="-20.5" width="248.765625" height="41"></rect><g class="label" transform="translate(0,0)"><g transform="translate(-114.3828125,-10.5)"><foreignobject width="228.765625" height="21"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; white-space: nowrap;">EMR if need more machines clusters</div></foreignobject></g></g></g></g></g></g></svg></div></div></div><div class="ant-card ant-card-bordered"><div class="ant-card-head"><div class="ant-card-head-wrapper"><div class="ant-card-head-title">Actions</div></div></div><div class="ant-card-body"><div class="links"><a href="https://mermaidjs.github.io/mermaid-live-editor/#/view/eyJjb2RlIjoiZ3JhcGggVERcbkFbRGF0YSBTaXplIF0gLS0-fE5lZWQgTW9yZSBjb3JlIHBvd2VyIHRvIHJ1biBkYXRhfCBCKEFXUy9EYXRhQnJpY2tzKVxuQiAtLT4gQ3ttYWtlIGEgRGVjaXNpb259XG5DIC0tPnxPbmV8IERbRGFzay9OdW1iYSBpZiBvbmUgYmlnIG1hY2hpbmUgY2FuIGhhbmRsZV1cbkMgLS0-fFR3b3wgRVtEYXRhQnJpY2tzIHNpbWlsYXIgdG8gRU1SIGNsdXN0ZXJzXVxuQyAtLT58VGhyZWV8IEZbRU1SIGlmIG5lZWQgbW9yZSBtYWNoaW5lcyBjbHVzdGVyc11cbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In19">Link to View</a><div class="ant-divider ant-divider-vertical"></div><a href="https://mermaidjs.github.io/mermaid-live-editor/" download="">Download SVG</a></div></div></div></div><h3 style="text-align: right;">Powered by mermaid <div data-show="true" class="ant-tag ant-tag-green">8.0.0</div></h3></div></div></div></div> <script src="./graph_files/src.532b65ec.js" charset="UTF-8"></script><textarea style="letter-spacing:normal;line-height:21px;padding-top:4px;padding-bottom:4px;font-family:&quot;Chinese Quote&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;;font-weight:400;font-size:14px;text-rendering:auto;text-transform:none;width:258.656px;text-indent:0px;padding-left:11px;padding-right:11px;border-width:1px;box-sizing:border-box;
+  min-height:0 !important;
+  max-height:none !important;
+  height:0 !important;
+  visibility:hidden !important;
+  overflow:hidden !important;
+  position:absolute !important;
+  z-index:-1000 !important;
+  top:0 !important;
+  right:0 !important
+"></textarea><div class="mermaidTooltip" style="opacity: 0;"></div>  </body></html>
