@@ -17,4 +17,4 @@ For a data dump in the order of 10e10-10e20 observations and 10e7-10-12 features
 ### big data: 
 Anything bigger and we're definitely gonna be a big cloud customer. 
 
-
+![orders.jpg](decisionmaking)
