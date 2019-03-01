@@ -1,0 +1,11 @@
+when you fire up an instance of your sagemaker notebook 
+run these in a jupyter terminal at sh-4.2$ before anythign else: 
+
+conda update -n base -c defaults conda
+
+conda install -n python3 bokeh dask datashader fastparquet numba python-snappy
+
+cd SageMaker
+
+git clone https://github.com/quinn-dougherty/DS-Unit-3-Sprint-3-Big-Data
+
