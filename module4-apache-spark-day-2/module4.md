@@ -150,7 +150,7 @@ Use this Databricks dataset:
 
 How many columns does this dataframe have? How many rows?
 
-How many farmer's markets are in your zip code? In your state? In the country?
+How many farmer's markets are in your zip code? In your state?
 
 What farmer's market has the longest name?
 
