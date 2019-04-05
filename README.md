@@ -1,5 +1,6 @@
 # DS-Unit-3-Sprint-3-Big-Data
-LOOK HERE FOR SPRINT CHALLENGE PART 2 
+LOOK HERE FOR SPRINT CHALLENGE PART 2
+
 I don't feel like I've explored the options for scaling deeply enough, but from what I've done I prefer AWS Sagemaker as a platform to Databricks, Dask as a library to Spark, and python and pure SQL as languages to Scala. These mostly come up to awkwardness with switching between too different formats and how many different things they need.
 
 AWS "scales out", meaning it divides the computational load onto multiple computers at a minor cost. Free Databricks mimics this but isn't as powerful. I prefer that AWS continues to run clusters over Databricks shutting them down after inactivity because there are machine learning projects that could actually need the time (like a model evaluation with lots of possible configurations). I prefer AWSeven for smaller projects because it's much easier to keep things organized when clusters aren't disabled for what appears to be for good.
