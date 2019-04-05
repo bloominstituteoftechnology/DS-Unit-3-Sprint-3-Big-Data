@@ -1,0 +1,3 @@
+[submodule "module3-apache-spark-day-1/Spark-The-Definitive-Guide"]
+	path = module3-apache-spark-day-1/Spark-The-Definitive-Guide
+	url = https://github.com/databricks/Spark-The-Definitive-Guide.git
