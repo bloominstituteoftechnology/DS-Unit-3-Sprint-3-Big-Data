@@ -1,12 +1,25 @@
 _Lambda School Data Science - Big Data_
 
-# Scala for Spark - Assignment
+# Enought Scala for Spark
+
+See PDF presentation for lesson materials. 
+
+_Goals_
+1. Learn about the motivations for Scala
+2. Compare Scala v. Python for Spark
+
+_Your Objectives_
+1. Learn enough Scala syntax to use Spark
+2. Create a notebook on the databricks platform
+
+
+## Scala for Spark - Assignment
 
 ### Learn Scala the Hard Way
 
-[**Create an Amazon EMR Notebook**](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-create.html). When creating your notebook, choose **Create a Cluster**, with 1 m4.large instance.
+[**Create an DataBricks Community Notebook**](https://community.cloud.databricks.com/).
 
-[From the **Kernel** menu, choose **Change kernel**](https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-working-with.html) and then select the **Spark** kernel. This enables you to use the Scala programming language.
+[From the **Kernel** menu, choose **Change kernel**] and then select the **Scala** kernel. This enables you to use the Scala programming language.
 
 Then do the exercises below, which come from [**Learn X in Y minutes, Where X=Scala**](https://learnxinyminutes.com/docs/scala/). _(This is most of parts 1-4, 7, 9.)_
 
@@ -17,7 +30,7 @@ Do it [**"the hard way"**](https://learnpythonthehardway.org/python3/intro.html)
 > 2. Type in each _exactly._
 > 3. Make it run.
 
-When you're done, from the **File** menu, choose **Download as Notebook (.ipynb)**. Commit the file to your GitHub repo.
+When you're done, from the **File** menu, choose **Download as html (.html)**. Commit the file to your GitHub repo.
 
 ```scala
 
